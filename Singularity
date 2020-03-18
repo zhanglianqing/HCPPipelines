@@ -86,7 +86,7 @@ conda clean -tipsy && sync && \
 cd /opt
 apt-get -qq update && \
 apt-get install -yq libfreetype6 libglib2.0 && \
-wget -q https://www.humanconnectome.org/storage/app/media/workbench/workbench-linux64-v1.4.1.zip -O wb.zip \
+wget -q https://www.humanconnectome.org/storage/app/media/workbench/workbench-linux64-v1.4.2.zip -O wb.zip \
 && unzip wb.zip \
 && rm wb.zip && \
 apt-get clean && \
